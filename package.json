@@ -1,0 +1,44 @@
+{
+  "name": "apply-job-portal",
+  "version": "1.0.0",
+  "description": "Sample application to test the node.js in aws serverless app",
+  "main": "server/app.js",
+  "scripts": {
+    "start": " node server/app.js"
+  },
+  "keywords": [
+    "node.js",
+    "aws",
+    "serverless"
+  ],
+  "author": "Nare Sai Chaitanya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.9.29",
+    "morgan": "^1.10.0",
+    "composable-middleware": "^0.3.0",
+    "connect-mongo": "^0.8.1",
+    "socket.io": "^1.0.6",
+    "socket.io-client": "^1.0.6",
+    "socketio-jwt": "^3.0.0",
+    "method-override": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "express-session": "~1.0.2",
+    "compression": "~1.0.1"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "jshint-stylish": "^2.2.1",
+    "requirejs": "^2.3.6",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "private": true
+}
